@@ -3,23 +3,26 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E3858)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+
+# WinForms Data Grid - Visualize master-detail data (runtime)
+
+This example shows how to bind the WinForms Grid Control to the **NorthWind** database and implement master-detail relationships (Category-Product).
+
+The `GridView` displays data from the **Categories** data table. The `CardView` displays data from the **Products** data table. These data tables are linked by a master-detail relationship that is set up in code.
+
+
+## Files to Review
 
 * [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
-<!-- default file list end -->
-# How to: Bind GridControl to DataBase and Implement Master-Detail Mode at Runtime
 
 
-<p>This example shows how to bind a GridControl to the NorthWind MS Access database and implement master-detail relationships.<br />
-The GridControl's master View displays data from the Categories table, while a detail View (CardView) displays data from the Products table. These tables are linked by a master-detail relationship, which is set up in code.</p>
+## Documentation
 
-<b>See also:</b>
+* [Master-Detail Relationships - WinForms Data Grid](https://docs.devexpress.com/WindowsForms/3473/controls-and-libraries/data-grid/master-detail-relationships)
+* [Working with Master-Detail Relationships in Code](https://docs.devexpress.com/WindowsForms/732/controls-and-libraries/data-grid/master-detail/working-with-master-detail-relationships-in-code)
 
-[DevExpress WinForms Cheat Sheets - XtraGrid Master-Detail Mode](https://go.devexpress.com/CheatSheets_WinForms_Examples_T919464.aspx)
+## See Also
 
-[DevExpress WinForms Troubleshooting - Grid Control](https://go.devexpress.com/CheatSheets_WinForms_Examples_T934742.aspx)
-
-<br/>
-
+* [DevExpress WinForms Cheat Sheets - XtraGrid Master-Detail Mode](https://go.devexpress.com/CheatSheets_WinForms_Examples_T919464.aspx)
+* [DevExpress WinForms Troubleshooting - Grid Control](https://go.devexpress.com/CheatSheets_WinForms_Examples_T934742.aspx)
 
